@@ -2,7 +2,9 @@
 
 공공 API와 Recharts를 활용해 차트로 데이터 표현하기
 
-## 🚀 과제 배포 링크
+개발 기간: 25년 8월 11일 ~ 12일
+
+## 🚀 프로젝트 배포 링크
 
 **https://medical-chart.vercel.app/**
 
