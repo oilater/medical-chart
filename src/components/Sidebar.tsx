@@ -20,14 +20,6 @@ export function Sidebar() {
         </li>
         <li>
           <button 
-            css={menu === 'Setting' ? menuItemActiveStyle : menuItemStyle}
-            onClick={() => setMenu('Setting')}
-          >
-            설정
-          </button>
-        </li>
-        <li>
-          <button 
             css={menu === 'Contact' ? menuItemActiveStyle : menuItemStyle}
             onClick={() => setMenu('Contact')}
           >

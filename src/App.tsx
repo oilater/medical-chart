@@ -2,10 +2,9 @@ import Dashboard from './pages/Dashboard'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { useState, createContext } from 'react'
 import Layout from './components/Layout';
-import { Setting } from './pages/Setting';
 import { Contact } from './pages/Contact';
 
-type Menu = 'Dashboard' | 'Setting' | 'Contact'
+type Menu = 'Dashboard' | 'Contact'
 
 interface MenuContextConfig {
   menu: Menu;
@@ -26,7 +25,6 @@ function App() {
       <MenuContext.Provider value={{ menu, setMenu }}>
         <Layout>
           {menu === 'Dashboard' && <Dashboard />}
-          {menu === 'Setting' && <Setting />}
           {menu === 'Contact' && <Contact />}
         </Layout>
       </MenuContext.Provider>
