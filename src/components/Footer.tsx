@@ -4,7 +4,7 @@ import { Colors } from '../theme/colors';
 export function Footer() {
   return (
     <footer css={footerStyle}>
-      Tilda Assignment
+      Medical Charts
     </footer>
   );
 }

@@ -4,7 +4,7 @@ import { Colors } from '../theme/colors';
 export function Header() {
   return (
     <header css={headerStyle}>
-      <div css={logoStyle}>Tilda Assignment</div>
+      <div css={logoStyle}>Medical Charts</div>
     </header>
   );
 }

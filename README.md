@@ -11,8 +11,8 @@
 로컬 실행을 위해서는 .env 파일에 API KEY 설정이 필요합니다.
 ```bash
 # 저장소 클론
-git clone https://github.com/oilater/Tilda-Assignment
-cd tilda-assignment
+git clone https://github.com/oilater/medical-chart
+cd medical-chart
 
 # 의존성 설치
 pnpm install
